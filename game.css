@@ -1,0 +1,269 @@
+.tableau{
+    position: absolute;
+    top: 30px;
+    border: 10px;
+    left:300px;
+    border: 20px solid rgba(175, 175, 126, 0.205);
+    border-color: rgb(168, 99, 8);
+    width: 800px;
+    height: 550px;
+    background:rgb(19, 5, 5);
+    box-shadow: 5px 5px 5px;
+}
+.horizontale{
+    position: absolute;
+    top: 265px;
+    width: 800px;
+    height: 20px;
+    background: rgb(168, 99, 8);
+
+}
+.verticale{
+    position:absolute;
+    width:20px;
+    height: 550px;
+    left:390px;
+    background: rgb(168, 99, 8);
+}
+.diagonal1{
+    position: absolute;
+    top: -215px;
+    left: 390px;
+    background:rgb(168, 99, 8) ;
+    width: 20px;
+    height: 980px;
+    transform: rotate(-56deg);
+}
+.diagonal2{
+    position: absolute;
+    top: -215px;
+    left: 390px;
+    background: rgb(168, 99, 8);
+    width: 20px;
+    height: 980px;
+    transform: rotate(+56deg);
+}
+body{
+    margin: 0;
+    padding: 0;
+    transition: 0.5;
+}
+.rouge{
+   background-color: red;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   transition: top 0.5s,left 0.5s;
+   border-radius: 50%;
+   border: solid 4px black;
+   box-shadow: 5px 5px 5px;
+
+}
+.rouge:hover{
+    border:3px solid green;
+}
+
+
+.vert{
+    background-color: rgb(20, 190, 48);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: solid 4px black;
+    transition: top 0.5s,left 0.5s;
+    border-radius: 50%;
+    border: solid 4px black;
+    box-shadow: 5px 5px 5px;
+ }
+.vert:hover{
+    border:3px solid red;
+}
+.cercleR1{
+    top: -10px;
+    left: -10px;
+ }
+.cercleR2{
+    top: -10px;
+    left: 390px;  
+ }
+.cercleR3{
+    top: -10px;
+    left: 800px;   
+ }
+.cercleV1{
+    top: 550px;
+    left: -10px;
+}
+.cercleV2{
+    top: 550px;
+    left: 390px;
+}
+.cercleV3{
+    top: 550px;
+    left: 800px;
+}
+
+.number{
+    position: absolute;
+    top: 30px;
+    border-radius: 10px;
+    left: 300px;
+    width: 835px;
+    height: 585px;
+
+}
+#cote{
+    padding: 0;
+    width: 100px;
+    height: 50px;
+
+}
+.nb1{
+    position: absolute;
+    opacity: 0;
+    left: -50px;
+    top: -10px;
+
+}
+.nb2{
+    position: absolute;
+    opacity: 0;
+    left: 360px;
+    top: -10px;
+
+}
+.nb3{
+    position: absolute;
+    opacity: 0;
+    left: 770px;
+    top: -10px;
+
+}
+.nb4{
+    position: absolute;
+    opacity: 0;
+    left: -50px;
+    top: 260px;
+
+}
+.nb5{
+    position: absolute;
+    opacity: 0;
+    left: 360px;
+    top: 260px;
+
+}
+.nb6{
+    position: absolute;
+    opacity: 0;
+    left: 770px;
+    top: 260px;
+
+}
+.nb7{
+    position: absolute;
+    opacity: 0;
+    left: -50px;
+    top: 550px;
+
+}
+.nb8{
+    position: absolute;
+    opacity: 0;
+    left: 360px;
+    top: 550px;
+
+}
+.nb9{
+    position: absolute;
+    opacity: 0;
+    left: 770px;
+    top: 550px;
+
+}
+.soratra{
+        border-radius: 30px;
+        font-size: 70px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: rgb(168, 99, 8)!important;
+        width :100px;
+        margin-left:100px;
+}
+
+
+.vainc{
+    position: absolute;
+    top: 5rem;
+    padding-top: 10rem;
+    text-align: center;
+    width:100%;
+    height: 20rem;
+    background-color: aliceblue;
+    opacity: 0.8;
+    transition: 1s;
+    visibility: hidden;
+}
+.vainc h1{
+    color: rgb(126, 73, 3);
+    font-size: 60px;
+}
+.vainc button{
+    padding:5px;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(126, 73, 3);
+}
+.tROUGE{
+    position: relative;
+    top: 230px;
+    left: 1500px;
+    text-align: center;
+    width: 50px;;
+    height: 50px;
+    background-color:red;
+    position: absolute;
+    transition: top 0.5 , left 0.5s;
+    border-radius: 50%;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px;
+    color:white;
+
+}
+.tROUGE:hover{
+    border: 3px soliD rgb(20, 190, 48);
+}
+.tVERT{
+    position: relative;
+    top: 330px;
+    left: 1500px;
+    text-align: center;
+    width: 50px;;
+    height: 50px;
+    background-color:rgb(20, 190, 48);
+    position: absolute;
+    transition: top 0.5 , left 0.5s;
+    border-radius: 50%;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px;
+    color:white;
+}
+.tVERT:hover{
+    border: 3px solid red;
+}
+h3
+{
+    position: absolute;
+    top: 150px;
+    left: 1400PX;
+    width: 230px;
+    background:rgb(19, 5, 5);
+    color: seashell;
+    text-align: center;
+    margin-left: 30px;
+
+   
+}
